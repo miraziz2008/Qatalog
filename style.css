@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(41, 41, 41, 1) ;
+}
+.container{
+    max-width: 1300px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    background-color: rgba(41, 41, 41, 1);
+    color: white;
+    padding: 15px 0px;
+}
+nav .box1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .box2{
+    display: flex;
+    align-items: center;
+}
+nav .box2 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+nav .box2 button{
+    padding: 10px 17px;
+    background-color: rgb(26,26,199);
+    color: white;
+    border-radius: 10px ;
+    border: none;
+}
+.container2{
+    max-width: 1300px;
+    margin:  0 auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+header{
+    background-color: rgba(41, 41, 41, 1) ;
+    padding-top: 100px;
+    color: white;
+}
+header h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 50px;
+}
+main .s1{
+    padding: 50px 0px;
+}
+main .s1 h2{  
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    color: white;
+}
+main .s1 p {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    color: rgba(148, 148, 148, 1);
+}
+main .s1 .card{
+    padding: 30px 100px 30px 30px;
+    border-radius: 16px ;
+    background-color: rgba(85, 81, 81, 1);
+}
+main .s1 .card .text1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color:rgba(148, 148, 148, 1); 
+}
+main .s1 .card .text2{ 
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color:rgba(148, 148, 148, 1); 
+}
+main .s1 .card2{
+    background-color: aqua;
+     padding: 30px 100px 30px 30px;
+    border-radius: 16px ;
+}
+main .s2{
+    padding-top: 100px ;
+}
+main .s2 h2{   
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    color: white;
+}
+main .s2 p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(148, 148, 148, 1);
+}
+main .s2 img{
+    width: 934;
+    height: 344;
+}
+main .s3{
+    padding-top: 150px ;
+}
+main .s3 h2{ 
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    color: white;
+}
+main .s3 p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(148, 148, 148, 1);
+}
+main .s3 img{
+    width: 688px;
+    height: 497px;
+    top: 64px;
+}
+main .s4 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    padding-top: 100px;
+}
+main .s4 .ota{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+main .s4 .ota .bola1{
+    width: 408px;
+    height: 150px;
+    border-radius: 16px;
+    background-color: rgba(62, 62, 62, 1);
+}
+main .s5 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 100px;
+}
+main .s5 .dvv{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 250px;
+    
+}
+main .s6 img{
+    padding-top: 150px;
+}
+main .s7 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    padding-top: 150px;
+}
+main .s7 img{
+    width: 261px;
+    height: 32px;
+    padding-top: 40px;
+}
+main .s4 .ota .bola1 .dv2{
+    align-items: center;
+}
+main .s8 p{
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    color: rgba(148, 148, 148, 1);
+}
+main .s8 .img1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+footer .footer__top{
+    align-items: start !important;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+footer .footer__top div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+footer .footer__top a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer__top h2{
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(148, 148, 148, 1);
+}
+
+
+
+
+
